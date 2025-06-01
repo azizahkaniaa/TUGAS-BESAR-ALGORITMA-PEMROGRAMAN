@@ -1,7 +1,7 @@
 # TUGAS-BESAR-ALGORITMA-PEMROGRAMAN
 Sistem Pemesanan Makanan di Kantin 
 
-# Deskripsi Program Manajemen Pesanan Makanan
+# Deskripsi 
 Program ini adalah sistem manajemen pesanan makanan sederhana yang ditulis dalam bahasa pemrograman Go. Program ini dirancang untuk membantu penjual  dalam mengelola daftar pesanan, menambahkan item ke pesanan, melihat struk, serta melakukan analisis dasar seperti pencarian dan pengurutan data pesanan. Data disimpan dalam struktur array statis, yang berarti kapasitas maksimum pesanan dan item per pesanan telah ditentukan di awal.
 
 # Fitur-fitur Utama
@@ -55,7 +55,7 @@ Program ini adalah sistem manajemen pesanan makanan sederhana yang ditulis dalam
    demonstrasi penghitungan total harga pesanan untuk setiap entri menggunakan
    fungsi rekursif.
 
-# Cara Kerja Umum
+# Cara Kerja
 1. Struktur Data: Program menggunakan struct untuk mendefinisikan MenuMakanan,
    ItemMakanan, dan Pesanan. Pesanan dan menu disimpan dalam array statis global.
 2. Input Pengguna: Fungsi bacaInt() yang telah ditingkatkan digunakan untuk
