@@ -6,38 +6,49 @@ Program ini adalah sistem manajemen pesanan makanan sederhana yang ditulis dalam
 
 # Fitur-fitur Utama
 1. Pengelolaan Pesanan (kelolaPesananMenu())
+   
    a. Input ID Pesanan Baru (inputIDPesanan()): Memungkinkan pengguna untuk
    membuat pesanan baru dengan menetapkan ID unik. Program akan memeriksa apakah
    ID sudah ada dan memberikan pesan jika kapasitas pesanan penuh.
+   
    b. Tambah Item ke Pesanan (pilihMakanan()): Pengguna dapat memilih ID pesanan
    yang sudah ada, lalu memilih item makanan dari daftar menu yang tersedia (Nasi
    Goreng, Mie Ayam, Bakso, Soto Ayam, Es Teh, Es Jeruk) beserta jumlahnya. Fitur
    ini juga memvalidasi apakah pesanan sudah mencapai batas maksimum item.
+   
    c. Hapus Data Pesanan (hapusPesanan()): Memungkinkan pengguna untuk menghapus
    seluruh pesanan berdasarkan ID yang dimasukkan.
 
 2. Melihat Data Pesanan (lihatDataPesananMenu())
+   
    a. Cetak Semua Struk Belanja (cetakStruk()): Menampilkan semua pesanan yang
    telah dibuat dalam format struk. Setiap struk mencakup ID pesanan, daftar item,
    subtotal untuk setiap item, dan total harga pesanan. Fungsi ini juga
    mendemonstrasikan penghitungan total harga menggunakan rekursi.
+   
    b. Cari ID Pesanan (Sequential Search) (cariIDPesananSequential()):
    Memungkinkan pengguna untuk mencari detail pesanan spesifik dengan memasukkan
    ID pesanan. Pencarian ini dilakukan secara sequential search (pencarian
    berurutan).
+   
    c. Cari Pesanan berdasarkan Total Harga (Binary Search)
    (cariTotalHargaPesananBinary()): Pengguna dapat mencari pesanan berdasarkan
    total harganya. Sebelum melakukan pencarian, data pesanan akan diurutkan
    berdasarkan total harga menggunakan insertion sort untuk memungkinkan pencarian
    binary search yang efisien.
+   
 3. Pengurutan Data Pesanan (urutkanDataPesananMenu())
+   
    a. Urutkan Harga Termahal (Selection Sort) (urutkanHargaTermahal()):
    Mengurutkan dan menampilkan daftar pesanan berdasarkan total harga dari yang
    tertinggi ke terendah menggunakan algoritma selection sort.
+   
    b. Urutkan Harga Termurah (Insertion Sort) (urutkanHargaTermurah()):
    Mengurutkan dan menampilkan daftar pesanan berdasarkan total harga dari yang
    terendah ke tertinggi menggunakan algoritma insertion sort.
+   
 4. Analisis Data Pesanan (analisisDataPesananMenu())
+   
    a. Cari Nilai Ekstrim (Pesanan Termahal & Termurah) (findExtremeOrderValues())
    Menganalisis semua pesanan untuk menemukan dan menampilkan ID pesanan dengan
    total harga paling mahal dan paling murah. Fitur ini juga menyertakan
